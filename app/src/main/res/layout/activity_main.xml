@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F2F1"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:scaleType="center"
+        android:src="@mipmap/udacity" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step up to succeed.."
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:textSize="20dp"
+        android:layout_below="@+id/view1"
+        android:layout_alignParentRight="true"
+        android:paddingRight="15dp" />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2465 Latham St"
+        android:textSize="16dp"
+        android:layout_below="@+id/text2"
+        android:layout_alignParentRight="true"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mountain View, CA 94043"
+        android:textSize="16dp"
+        android:layout_below="@+id/text3"
+        android:layout_alignParentRight="true"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="650-555-5555"
+        android:textSize="16dp"
+        android:layout_below="@+id/text4"
+        android:layout_alignParentRight="true"
+        android:paddingRight="15dp" />
+
+
+
+
+</RelativeLayout>
