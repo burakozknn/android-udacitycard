@@ -17,6 +17,21 @@
         android:src="@mipmap/udacity" />
 
     <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view1"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:autoLink="all"
+        android:text="@string/autolink_test"
+        android:textAlignment="viewEnd"
+        android:textColorLink="#616161"
+        android:textSize="17sp" />
+
+    <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,46 +43,7 @@
         android:layout_marginTop="10dp"
         />
 
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Udacity"
-        android:textSize="20dp"
-        android:layout_below="@+id/view1"
-        android:layout_alignParentRight="true"
-        android:paddingRight="15dp" />
 
-
-    <TextView
-        android:id="@+id/text3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2465 Latham St"
-        android:textSize="16dp"
-        android:layout_below="@+id/text2"
-        android:layout_alignParentRight="true"
-        android:paddingRight="15dp" />
-
-    <TextView
-        android:id="@+id/text4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mountain View, CA 94043"
-        android:textSize="16dp"
-        android:layout_below="@+id/text3"
-        android:layout_alignParentRight="true"
-        android:paddingRight="15dp" />
-
-    <TextView
-        android:id="@+id/text5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="650-555-5555"
-        android:textSize="16dp"
-        android:layout_below="@+id/text4"
-        android:layout_alignParentRight="true"
-        android:paddingRight="15dp" />
 
 
 
