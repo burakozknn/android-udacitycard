@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Hello Android</string>
+    <string name="autolink_test">Udacity \n
+    212-556-7652 \n
+    2465 Latham St Mountain View,\n CA 94043  \n
+        https://udacity.com
+</string>
 </resources>
